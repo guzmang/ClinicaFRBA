@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98E3F3FE-5F9F-484E-BAC9-FB4AA4AA48EB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="frmABMAfiliado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMAfiliado.Designer.cs">
+      <DependentUpon>frmABMAfiliado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmABMRolInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmABMRolInicio.Designer.cs">
+      <DependentUpon>frmABMRolInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgendaProf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgendaProf.Designer.cs">
+      <DependentUpon>frmAgendaProf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgendaProfLV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgendaProfLV.Designer.cs">
+      <DependentUpon>frmAgendaProfLV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmALTAafiliado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmALTAafiliado.Designer.cs">
+      <DependentUpon>frmALTAafiliado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAltaRol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAltaRol.Designer.cs">
+      <DependentUpon>frmAltaRol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBAJAafiliado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBAJAafiliado.Designer.cs">
+      <DependentUpon>frmBAJAafiliado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCancTurnosProf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancTurnosProf.Designer.cs">
+      <DependentUpon>frmCancTurnosProf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCancTurnoAfiliado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancTurnoAfiliado.Designer.cs">
+      <DependentUpon>frmCancTurnoAfiliado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCompraDeBonos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCompraDeBonos.Designer.cs">
+      <DependentUpon>frmCompraDeBonos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEliminarRol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEliminarRol.Designer.cs">
+      <DependentUpon>frmEliminarRol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstadisticas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadisticas.Designer.cs">
+      <DependentUpon>frmEstadisticas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistorialCambioPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistorialCambioPlan.Designer.cs">
+      <DependentUpon>frmHistorialCambioPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMODIafiliado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMODIafiliado.Designer.cs">
+      <DependentUpon>frmMODIafiliado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarRol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarRol.Designer.cs">
+      <DependentUpon>frmModificarRol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPedidoTurno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPedidoTurno.Designer.cs">
+      <DependentUpon>frmPedidoTurno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegLlegada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegLlegada.Designer.cs">
+      <DependentUpon>frmRegLlegada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegLlegadaTurnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegLlegadaTurnos.Designer.cs">
+      <DependentUpon>frmRegLlegadaTurnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegLlegadaTurnosBonos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegLlegadaTurnosBonos.Designer.cs">
+      <DependentUpon>frmRegLlegadaTurnosBonos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegResultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegResultados.Designer.cs">
+      <DependentUpon>frmRegResultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRoles.Designer.cs">
+      <DependentUpon>frmRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{62ac044d-3222-4d75-9924-d4d3935987f0}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmABMAfiliado.resx">
+      <DependentUpon>frmABMAfiliado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmABMRolInicio.resx">
+      <DependentUpon>frmABMRolInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgendaProf.resx">
+      <DependentUpon>frmAgendaProf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgendaProfLV.resx">
+      <DependentUpon>frmAgendaProfLV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmALTAafiliado.resx">
+      <DependentUpon>frmALTAafiliado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAltaRol.resx">
+      <DependentUpon>frmAltaRol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBAJAafiliado.resx">
+      <DependentUpon>frmBAJAafiliado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancTurnoAfiliado.resx">
+      <DependentUpon>frmCancTurnoAfiliado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancTurnosProf.resx">
+      <DependentUpon>frmCancTurnosProf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCompraDeBonos.resx">
+      <DependentUpon>frmCompraDeBonos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEliminarRol.resx">
+      <DependentUpon>frmEliminarRol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadisticas.resx">
+      <DependentUpon>frmEstadisticas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistorialCambioPlan.resx">
+      <DependentUpon>frmHistorialCambioPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMODIafiliado.resx">
+      <DependentUpon>frmMODIafiliado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarRol.resx">
+      <DependentUpon>frmModificarRol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPedidoTurno.resx">
+      <DependentUpon>frmPedidoTurno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegLlegada.resx">
+      <DependentUpon>frmRegLlegada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegLlegadaTurnos.resx">
+      <DependentUpon>frmRegLlegadaTurnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegLlegadaTurnosBonos.resx">
+      <DependentUpon>frmRegLlegadaTurnosBonos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegResultados.resx">
+      <DependentUpon>frmRegResultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRoles.resx">
+      <DependentUpon>frmRoles.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
